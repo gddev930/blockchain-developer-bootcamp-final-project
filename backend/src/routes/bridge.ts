@@ -135,6 +135,12 @@ router.post("/getfreecreditfrometh", async (req: Request, res: Response) => {
   });
 });
 
+router.get('/', async (req: Request, res: Response) => {
+  return res.json({
+    result: "Success"
+  });
+})
+
 router.post("/getfreecreditfrombsc", async (req: Request, res: Response) => {
   const to: string = req.body.to;
   const amount: BigNumber = convertTokenValue(Number(10000));
