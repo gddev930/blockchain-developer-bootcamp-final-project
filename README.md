@@ -1,21 +1,39 @@
 # blockchain-developer-bootcamp-final-project
 
-## Decentralized Tote System Protocol (DTSP)
+## Consensys Test Token(CTT)
 
 ### OVERVIEW
-DTSP is a protocol that enables users to bet into a pari-mutuel market, also commonly referred to as Tote markets.  
-DTSP directly addressing massive shortcomings of the existing ITSP protocol that is preventing global liquidity sharing for current pari-mutuel market operators 
+CTT(Consensys Test Token) is a simple ERC20 based token which can be used for various purposes.
+Deployed to BSC testnet and Ethereum testnet(Rinkeby).
+It is having a cross-chain feature so can be transferred bsc->eth and eth->bsc.
+Having timelock and taxification feature.
 
-### WHAT DOES DTSP DO?
-The protocol enables someone to create a market, link it to an event that will happen in the future and establish the bet structure (e.g. horse to win, horse to place, accumulator style).
-The protocol also enables the market to accept wagers, share live betting data (e.g. total pool size and individual bets) with anyone who wants to observe, stop accepting wagers when the event starts and finally payout the market after the result is known.
-This means that no individual is responsible for holding user’s money, all payout mechanisms are transparent before placing the bet and all users can see exactly what bets are being placed into the market (a privilege that is normally only reserved for large professional bettors). 
+### WHAT DOES CTT DO?
 
-### HOW DOES IT WORK
-There is one platform token called TOTE, however, all betting and payouts can happen in any token (e.g. BTC, ETH, USDC etc. and the native token TOTE).
-  -	TOTE holders will be able to create a betting market
-  -	All betting happens on-chain directly into a market with any token the user choses
-  -	An oracle (or TOTE holder) will close and then settle the market
-  -	The market will have a duration where it can be disputed
-  -	The commission will be deducted from the pool and paid out to TOTE holders
-  -	Payouts made to winners in accordance with the specific market’s schedule 
+1. Can be transferred in BSC Testnet and Rinkeby.
+2. Can be transferred from BSC Testnet to Rinkeby and vice-versa.
+3. Can be swaped with eth or bbn in PCS and UNISWAP(of course testnets)
+4. Can incentivize token holders by taking taxes from transactions.(transactions from PCS or Uniswap)
+5. Can be timelocked from UNISWAP or PCS.
+
+### Project directory structure
+The project contains 3 main directories.
+ * token-contract : This is the main project for token contracts. Developed by using hardhat.
+   - contracts : Having smart contracts.(token contracts, bridge contracts, and interfaces)
+   - test : Unit tests
+   - deployment : scripts to deploy token/bridge contracts into bsc and ethereum networks(main and testnets)
+ * backend : Backend code having the logic should be executed with admin address. Having 4 endpoints.
+   - bridge/bsctoeth : The endpoint to be used to send CTT from BSC to ETH
+   - bridge/ethtobsc : The endpoint to be used to send CTT from ETH to BSC
+   - bridge/getfreecreditfrometh : Can get 10000 CTT in the Rinkeby
+   - bridge/getfreecreditfrombsc : Can get 10000 CTT in the BSC testnet
+ * frontend : Frontend code.   
+
+### Frontend public url
+
+### Smart Contract Addresses
+ * BSC CTT Contract Address : 0x96CAC1fE6132eEF92BD979D2dEA2650D9cE899E2
+ * Rinkeby CTT Contract Address : 0x05E5451Cd9c042980CEbe3897743A9948E61e2BF
+ 
+### Public address for certification
+0xFe169E439506Cfc7edBca083A0785ee1FE52B9F4
