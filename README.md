@@ -37,3 +37,5 @@ The project contains 3 main directories.
  
 ### Public address for certification
 0xFe169E439506Cfc7edBca083A0785ee1FE52B9F4
+
+For more information : [token contract](https://github.com/gddev930/blockchain-developer-bootcamp-final-project/tree/main/token-contract), [backend](https://github.com/gddev930/blockchain-developer-bootcamp-final-project/tree/main/backend), [frontend]()

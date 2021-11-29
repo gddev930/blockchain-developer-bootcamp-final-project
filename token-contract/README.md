@@ -1,4 +1,4 @@
-# Token Contract
+# Consensys Test Token Contract
 
 ## About
 * It is a ERC20-based native token contract for the project.
