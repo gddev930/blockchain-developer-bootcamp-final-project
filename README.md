@@ -30,7 +30,7 @@ The project contains 3 main directories.
  * frontend : Frontend code.   
 
 ### Frontend public url
-
+  http://transfers.new.italeastcorp.com/
 ### Smart Contract Addresses
  * BSC CTT Contract Address : 0x96CAC1fE6132eEF92BD979D2dEA2650D9cE899E2
  * Rinkeby CTT Contract Address : 0x05E5451Cd9c042980CEbe3897743A9948E61e2BF
@@ -38,4 +38,4 @@ The project contains 3 main directories.
 ### Public address for certification
 0xFe169E439506Cfc7edBca083A0785ee1FE52B9F4
 
-For more information : [token contract](https://github.com/gddev930/blockchain-developer-bootcamp-final-project/tree/main/token-contract), [backend](https://github.com/gddev930/blockchain-developer-bootcamp-final-project/tree/main/backend), [frontend]()
+For more information : [token contract](https://github.com/gddev930/blockchain-developer-bootcamp-final-project/tree/main/token-contract), [backend](https://github.com/gddev930/blockchain-developer-bootcamp-final-project/tree/main/backend), [frontend](https://github.com/gddev930/blockchain-developer-bootcamp-final-project/tree/main/frontend)
