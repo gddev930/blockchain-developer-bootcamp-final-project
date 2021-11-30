@@ -31,6 +31,10 @@ The project contains 3 main directories.
 
 ### Frontend public url
   http://transfers.new.italeastcorp.com/
+
+### A video screencast
+  https://www.loom.com/share/f0bc48e762b845948d96446796c2e0c4
+
 ### Smart Contract Addresses
  * BSC CTT Contract Address : 0x96CAC1fE6132eEF92BD979D2dEA2650D9cE899E2
  * Rinkeby CTT Contract Address : 0x05E5451Cd9c042980CEbe3897743A9948E61e2BF
